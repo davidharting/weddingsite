@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/davidharting/weddingsite/issues"
   },
-  "homepage": "https://davidandkatie.herokuapp.com"
+  "homepage": "https://davidandkatie.herokuapp.com",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  }
 }
