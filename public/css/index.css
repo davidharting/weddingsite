@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light'); /* Note: Also considering Reenie Beanie */
+
+
 h1, h2 {
+    font-family: "Sacramento", cursive, "sans-serif";
     text-align: center;
     color: darkred;
 }
 
 h3 {
+    font-family: "Sacramento", cursive, "sans-serif";
     text-align: center;
     color: navy;
 }
 
 p {
+    font-family: "Shadows Into Light", Helvetica, "sans-serif";
+    font-size: large;
     text-align: center;
     color: navy;
 }
