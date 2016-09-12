@@ -9,7 +9,7 @@ var app = express(),
     publicDirectory = require('path').join(__dirname, '/public');
 
 // middleware that serves up the favicon. before logging because it's really just noise
-// app.use(favicon(publicDirectory + '/favicon.ico'));
+app.use(favicon(publicDirectory + '/favicon.ico'));
 
 // logging middleware
 app.use(morgan('dev'));
