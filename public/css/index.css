@@ -21,7 +21,7 @@ p {
     color: navy;
 }
 
-img {
-    display: block;
+.slide {
+    display: none;
     margin: auto;
 }
