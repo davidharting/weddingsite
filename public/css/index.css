@@ -22,6 +22,6 @@ p {
 }
 
 .slide {
-    display: none;
+    display: block;
     margin: auto;
 }
