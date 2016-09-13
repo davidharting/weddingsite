@@ -1,11 +1,3 @@
-/*
- * Image slideshow logic
- * Currently implemented by hiding with CSS display attribute.
- * Consider changing to having a single img and updating src attribute. 
- * This way, only loading one image when the page loads. Browser caching should
- * hopefully optimize cycling through to beginning.
- */
-
 var slides = document.getElementsByClassName('slide');
 var slideIndex = 0;
 slides[slideIndex].style.display = "block";
