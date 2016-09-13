@@ -1,11 +1,12 @@
-var slides = document.getElementsByClassName('slide');
-var slideIndex = 0;
-slides[slideIndex].style.display = "block";
+// This variable determines which pictures are in the slideshow and the order
+const images = ["1", "kiss", "smiles", "ring", "happy", "after", "hug"];
+// Start index at 1 since HTML should start with the 0th item
+var slideIndex = 1; 
 
 function changeSlide() {
-    slides[slideIndex].style.display = "none";
-    slideIndex = (slideIndex + 1) % slides.length;
-    slides[slideIndex].style.display = "block"; 
+    let slide = document.getElementById("slide");
+    slide.src = "images/" + images[slideIndex] + ".jpg";
+    slideIndex = (slideIndex + 1) % images.length;
 }
 
 // Five seconds should be slow enough to be subtle but fast enough for someone 
