@@ -1,10 +1,10 @@
 // This variable determines which pictures are in the slideshow and the order
-const images = ["1", "kiss", "smiles", "ring", "happy", "after", "hug"];
+var images = ["1", "kiss", "smiles", "ring", "happy", "after", "hug"];
 // Start index at 1 since HTML should start with the 0th item
 var slideIndex = 1; 
 
 function changeSlide() {
-    let slide = document.getElementById("slide");
+    var slide = document.getElementById("slide");
     slide.src = "images/" + images[slideIndex] + ".jpg";
     slideIndex = (slideIndex + 1) % images.length;
 }
